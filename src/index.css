@@ -1,0 +1,137 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wdth,wght@100,100;100,200;100,300;100,500;100,600;100,700;100,800;125,400&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-stretch: ultra-expanded;
+}
+
+.cta {
+  @apply border border-gray-200 bg-gray-50 font-semibold p-1.5 px-3.5 rounded-lg;
+  @apply transition hover:-translate-y-0.5 active:translate-y-1 active:shadow-inner;
+}
+
+.cta.w-icon {
+  @apply flex justify-center items-center gap-2;
+}
+
+.icon {
+  @apply w-8 h-8;
+}
+
+.icon .img {
+  @apply h-full;
+}
+
+.img-cont {
+  /* @apply  */
+}
+
+.img-cont img {
+  @apply w-full;
+}
+
+.form-input {
+  @apply border-gray-200;
+}
+
+select {
+  @apply border-gray-200 rounded-lg;
+}
+
+.checkout-wrapper {
+  @apply lg:grid lg:grid-cols-7 gap-4 m-auto min-h-screen;
+}
+
+.checkout-section {
+  @apply col-span-4 border-r border-gray-200;
+}
+
+.checkout-section .wrapper {
+  @apply p-4 m-auto max-w-3xl;
+}
+
+.checkout-header {
+  @apply p-4 border-b border-gray-200;
+}
+
+.cart-section {
+  @apply p-4 w-full m-auto max-w-2xl;
+}
+
+.cart-section-header {
+  @apply mb-4;
+}
+
+.items-cont {
+  @apply py-4;
+}
+
+.items {
+  @apply flex flex-col gap-4;
+}
+
+.items .item {
+  @apply flex gap-4 justify-between items-center py-2;
+}
+
+.item .item-details {
+  @apply flex gap-4 items-center;
+}
+
+.item-name {
+  @apply font-semibold;
+}
+
+.item-price {
+  @apply font-bold;
+}
+
+.item-img {
+  @apply w-12 h-12 bg-gray-200 rounded-xl;
+}
+
+.item-img img {
+  @apply scale-150;
+}
+
+.price.total-amount {
+  @apply font-medium text-3xl;
+}
+
+.payment-form-cont {
+  @apply col-span-3 flex items-center;
+}
+
+.payment-form {
+  @apply w-full max-w-2xl m-auto bg-white rounded-lg shadow-lg;
+}
+
+.payment-form .wrapper {
+  @apply flex flex-col gap-2 p-6;
+}
+
+.form-group {
+  @apply flex gap-4;
+}
+
+.form-control {
+  @apply flex flex-col  gap-1 w-full py-0.5;
+}
+
+.form-input {
+  @apply w-full rounded-md mt-1;
+}
+
+.form-submit {
+  @apply pt-2;
+}
