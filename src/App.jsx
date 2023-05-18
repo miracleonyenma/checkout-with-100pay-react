@@ -226,7 +226,7 @@ function App() {
                   </div>
                   <div className="form-submit">
                     <button type="submit" className="cta w-icon w-full">
-                      <span>Pay with 100pay</span>
+                      <span>Pay with ThetaToken</span>
                       {/* <span class="icon !w-16">
                   <img src="https://100pay.co/img/100pay-logo.svg" alt="100pay logo" class="img">
                 </span> */}
